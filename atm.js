@@ -30,4 +30,5 @@ function getCashFromAtm(userCashRequest) {
         console.log(atm)
     }
 }
-getCashFromAtm(1400)
+getCashFromAtm(1700)
+
