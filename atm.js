@@ -14,10 +14,10 @@ function getCashFromAtm(userCashRequest) {
     console.log('...........................\n...........................\n    Welcome to our ATM \n...........................\n...........................\n')
 
     if (userCashRequest > summAllCashinAtm)
+        console.log(" Not enough money \n Try again...")
         // nit:
         // we could specify amount of available cash, e.g.:
-        console.log(`Not enough money in ATM.\nAvalable cash amount: ${summAllCashinAtm}`)
-        // console.log(" Not enough money \n Try again...")
+        // console.log(`Not enough money in ATM.\nAvalable cash amount: ${summAllCashinAtm}`)
     else {
         // the name someLeft doesn't tell us a lot,
         // we should use names that represent what variable stores
